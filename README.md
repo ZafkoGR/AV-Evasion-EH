@@ -39,6 +39,7 @@ The highlight of this project is the development of a **PowerShell-based attack 
 - Designed and executed a **zero-file PowerShell reverse shell** using only native Windows commands.
 - Captured webcam snapshot and exfiltrated it from a target system **without detection by Windows Defender or Kaspersky**.
 - No administrative privileges, no external binaries used — **pure native obfuscation + socket redirection**.
+- The payload was manually obfuscated using native PowerShell constructs, inspired by the methods presented in the [PowerShell Obfuscation Bible by t3l3machus](https://github.com/t3l3machus/PowerShell-Obfuscation-Bible).
 
 ## Key Tools Used
 - `theHarvester`, `Hunter.io`, `Social-Engineer Toolkit`, `Zphisher`, `Ngrok`, `Bettercap`, `GoPhish`, `Veil-Evasion`, `Metasploit`, `msfvenom`
